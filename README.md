@@ -1,12 +1,59 @@
-# React + Vite
+# 🧱 E-Deewar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-Deewar is a centralized platform built exclusively for **college communities** to **buy, sell, or rent** academic and personal items. Whether it’s books, electronics, furniture, or class notes, E-Deewar empowers students to connect, trade, and thrive — all within a **secure campus network**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📚 **Sell or Rent Notes & Books** – Give your academic resources a second life.
+- 🛏️ **Hostel & Daily Essentials** – Trade furniture, utensils, and other hostel needs.
+- 📱 **Electronics & Gadgets** – Buy or sell mobile phones, headphones, chargers, etc.
+- 📂 **Categorized Listings** – Browse by categories for quick discovery.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🏗️ Tech Stack
+
+### 💻 Frontend
+- React.js
+- Bootstrap 5
+- React Router
+
+---
+
+## 📦 Installation & Setup
+
+### Steps
+
+**Clone the repo**
+   ```git clone https://github.com/yourusername/e-deewar.git
+   cd e-deewar
+````
+
+ **Frontend (if separate)**
+   Navigate to the frontend folder and run:
+
+   ```npm install
+   npm run dev
+   ```
+
+---
+
+## 🤝 Contribution Guidelines
+
+1. Fork this repo
+2. Create your branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Create a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** – feel free to use and modify it as needed.
+
+---
+
+## 🙌 Made with ❤️ for Campus Communities
