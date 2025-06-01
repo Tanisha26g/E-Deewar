@@ -1,0 +1,12 @@
+.stationary-card {
+    transition: transform 0.2s ease;
+}
+
+.stationary-card:hover {
+    transform: scale(1.02);
+}
+
+.heart-button {
+    padding: 0;
+    border: none;
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/home.css";
 import { Link } from "react-router-dom";
 import ParticleBackground from "../components/ParticleBackground";
@@ -53,30 +52,6 @@ const Home = () => {
         <Link to="/browse" className="explore-more-link">
           <button className="explore-more-button">See More →</button>
         </Link>
-      </section>
-
-      {/* Search and Filters */}
-      <section className="search-section">
-        <h2>Find What You Need</h2>
-        <div className="search-controls">
-          <input className="search-bar" type="text" placeholder="Search by name or category..." />
-          <div className="filters">
-            <select className="filter-dropdown">
-              <option>Category</option>
-              <option>Books</option>
-              <option>Stationery</option>
-              <option>Electronics</option>
-            </select>
-            <select className="filter-dropdown">
-              <option>Type</option>
-              <option>Sale</option>
-              <option>Rent</option>
-            </select>
-            <input className="filter-dropdown" type="number" placeholder="Min Price" />
-            <input className="filter-dropdown" type="number" placeholder="Max Price" />
-            <button className="cta-button">Apply Filters</button>
-          </div>
-        </div>
       </section>
     </div>
   );

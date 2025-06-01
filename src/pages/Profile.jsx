@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/styles.css";
 
 const Profile = () => {
-  // Dummy user data (can be replaced with API data)
+  // Dummy user data
   const user = {
     name: "John Doe",
     email: "john.doe@example.com",

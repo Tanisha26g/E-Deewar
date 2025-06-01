@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/styles.css";
 
@@ -27,11 +27,7 @@ const Navbar = () => {
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li><Link to="/community">Community Forum</Link></li>
-          <li><Link to="/chatbot">Chatbot</Link></li>
           <li><Link to="/faqs">FAQs</Link></li>
-          <li><Link to="/services">Services</Link></li>  
-          <li><Link to="/register">Register</Link></li>
 
           {/* Profile Section */}
           <li className="profile-dropdown" ref={profileRef}>
